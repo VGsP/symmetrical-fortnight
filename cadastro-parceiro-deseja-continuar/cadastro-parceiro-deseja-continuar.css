@@ -1,0 +1,143 @@
+body {
+  font-family: Roboto;
+}
+
+button {
+  width: 100%;
+
+  color: var(--branco, #fff);
+  text-align: center;
+  /* H4 - 20 */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+h1 {
+  color: var(--secundria, #c34d96);
+  text-align: center;
+  /* H2 - 44 */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  /* 122.222% */
+}
+
+h2 {
+  color: var(--cinza-1, #4d4d4d);
+  text-align: center;
+  /* H3 - 36 */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 128.571% */
+}
+
+h3 {
+  color: var(--cinza-1, #4d4d4d);
+  text-align: center;
+  /* H4 - 20 */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+.pet-svg {
+  margin-top: 90%;
+  margin-left: 50%;
+  height: 40vh;
+  width: 20vw;
+}
+
+/* ----------------------------------------------------------------- */
+
+:root {
+  --ligh-gray-color: #e2e2e2;
+  --gray-color: #7a8183;
+  --dark-gray-color: #737478;
+  --blue-ppets-color: #11b3e3;
+  --dark-blue-ppets-color: #0e81a4;
+  --yellow-ppets-color: #fac646;
+  --orange-ppets-color: #fea664;
+  --green--ppets-color: #4cb978;
+  --red--ppets-color: #ee473a;
+  --purple-ppets-color: #b0448b;
+  --ocean-blue-ppets-color: #0c3336;
+  --light-green-ppets-color: #51b477;
+  --white-color: #fff;
+  --grey-color: #4d4d4d;
+  --rectangle-height: 12.5vh;
+}
+
+.rectangles {
+  width: 0.5%;
+}
+
+.main-page {
+  width: 99.5%;
+}
+
+.blue-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--blue-ppets-color);
+}
+
+.yellow-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--yellow-ppets-color);
+}
+
+.orange-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--orange-ppets-color);
+}
+
+.green-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--green--ppets-color);
+}
+
+.red-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--red--ppets-color);
+}
+
+.purple-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--purple-ppets-color);
+}
+
+.ocean-blue-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--ocean-blue-ppets-color);
+}
+
+.light-green-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--light-green-ppets-color);
+}
+.white-rectangle {
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  height: var(--rectangle-height);
+  background-color: var(--white-color);
+}
