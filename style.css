@@ -416,65 +416,70 @@
     overflow-y: hidden;
   }
 
+  .horizontal-bar{
+    height: 1vh;
+  }
+  .rectangle-bar{
+    height: 12.5vh;
+  }
+  .vertical-rectangle{
+    top: 0;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 1.5svh;
+  }
+
   .blue-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--blue-ppets-color);
   }
 
   .yellow-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--yellow-ppets-color);
   }
 
   .orange-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--orange-ppets-color);
   }
 
   .green-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--green--ppets-color);
   }
 
   .red-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--red--ppets-color);
   }
   
   .purple-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--purple-ppets-color);
   }
 
   .ocean-blue-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color);
-    height: 1vh;
     background-color: var(--ocean-blue-ppets-color);
   }
 
   .light-green-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color); 
-    height: 1vh;
     background-color: var(--light-green-ppets-color);
   }
   .white-rectangle{
     border-left: 1px solid var(--white-color); 
     border-right: 1px solid var(--white-color); 
-    height: 1vh;
     background-color: var(--white-color);
   }
 
@@ -500,6 +505,24 @@
     font-size: 2.3rem
   }
 
+
+
+
+
+
+
+
+  .become-partner input, .become-partner button, #inputState {
+    height: 56px;
+  }
+
+  .full{
+    height: 100%;
+  }
+  
+  
+  
+
   @media (max-width: 767px) {
     /* Estilos a serem aplicados para telas menores que 768 pixels */
     /* Por exemplo: */
@@ -514,3 +537,32 @@
 
 
   /*  new css for new designs  sign-up*/
+  .form-partner-box{
+    height: 100vh;
+}
+
+.title-create-partner{
+    color: var(--purple-ppets-color);
+    margin-bottom: 3rem!important;
+}
+
+.dog-mascot{
+  position: absolute;
+    left: 20vh;
+    bottom: 15vh;
+}
+
+
+@media (max-width: 1368px) {
+  /* Estilos a serem aplicados para telas menores que 768 pixels */
+  /* Por exemplo: */
+  .dog-mascot {
+    display: none!important;
+  }
+  
+  .title-create-partner{
+    margin-bottom: 0!important;
+  }
+
+
+} 
