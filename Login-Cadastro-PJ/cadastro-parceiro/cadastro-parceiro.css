@@ -1,0 +1,69 @@
+body {
+  font-family: Roboto;
+}
+
+button {
+  width: 100%;
+  color: var(--branco, #fff);
+  text-align: center;
+  /* H4 - 20 */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+
+
+.main-page {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh;
+}
+
+.rectangles {
+  display: none;
+}
+
+.pet-svg {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .pet-svg {
+    display: block;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: -35vh;
+    height: 40vh;
+    width: 20vw;
+  }
+
+  .rectangles {
+    display: block;
+    position: absolute;
+    width: 0.5%;
+    right: 0;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
+:root {
+  --ligh-gray-color: #e2e2e2;
+  --gray-color: #7a8183;
+  --dark-gray-color: #737478;
+  --blue-ppets-color: #11b3e3;
+  --dark-blue-ppets-color: #0e81a4;
+  --yellow-ppets-color: #fac646;
+  --orange-ppets-color: #fea664;
+  --green--ppets-color: #4cb978;
+  --red--ppets-color: #ee473a;
+  --purple-ppets-color: #b0448b;
+  --ocean-blue-ppets-color: #0c3336;
+  --light-green-ppets-color: #51b477;
+  --white-color: #fff;
+  --grey-color: #4d4d4d;
+  --rectangle-height: 12.5vh;
+}
