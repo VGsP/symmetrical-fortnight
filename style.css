@@ -565,4 +565,14 @@
   }
 
 
-} 
+}
+
+.box-p{
+  box-shadow: 2px 2px #ebebeb;
+  border: 2px solid #60cced;
+  border-radius: 5px;
+}
+
+.med-s{
+  height: 120px;
+}
