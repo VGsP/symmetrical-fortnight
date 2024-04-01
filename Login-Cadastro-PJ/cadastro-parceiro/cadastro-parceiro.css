@@ -67,3 +67,24 @@ button {
   --grey-color: #4d4d4d;
   --rectangle-height: 12.5vh;
 }
+
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+.box-service{
+width: 130px;
+height: 130px;
+border-radius: 6px;
+border: 2px;
+box-shadow: -1px 3px 5px 0px #0000004D;
+border: 2px solid #10B3E4;
+}
+
+.s-m-btn{
+  max-width: 676px;
+}
